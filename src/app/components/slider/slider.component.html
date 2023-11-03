@@ -1,0 +1,5 @@
+<div class="slider-container">
+  <div #slider class="slider" [ngStyle]="{'transform': 'translateX(' + this._diff() + 'px)'}">
+    <app-card *ngFor="let card of cards" [card]="card"></app-card>
+  </div>
+</div>

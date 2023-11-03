@@ -1,0 +1,15 @@
+.card{
+  width: 720px;
+  height: 100%;
+  border-radius: 30px;
+  box-shadow: 0 0 25px 5px royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+span{
+  font-size: 40px;
+  font-family: sans-serif;
+}

@@ -1,0 +1,10 @@
+.container {
+  width: 1000px;
+  height: 650px;
+  box-shadow: 0 25px 100px 30px #ddd;
+  border-radius: 30px;
+  padding: 5% 140px;
+  display: inline-flex;
+  gap: 80px;
+  overflow: hidden;
+}
