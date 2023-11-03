@@ -68,7 +68,8 @@ export class SliderComponent {
 
     if (
       Math.abs(this.id) === this.cards.length - 1 &&
-      diff > (this.cards.length - 1) * this.slideWith + (this.cards.length - 1) * 80
+      diff >
+        (this.cards.length - 1) * this.slideWith + (this.cards.length - 1) * 80
     ) {
       return;
     }
